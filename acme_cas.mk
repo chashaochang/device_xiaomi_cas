@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/cas/device.mk)
 
 # Inherit from the AcmeUI configuration.
-$(call inherit-product, vendor/acme/config/common.mk)
+$(call inherit-product, vendor/acme/config/mobile.mk)
 
 PRODUCT_NAME := acme_cas
 PRODUCT_DEVICE := cas
