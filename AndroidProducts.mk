@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/acme_cas.mk
+    $(LOCAL_DIR)/csc_cas.mk
 
 COMMON_LUNCH_CHOICES := \
-    acme_cas-eng \
-    acme_cas-user \
-    acme_cas-userdebug
+    csc_cas-eng \
+    csc_cas-user \
+    csc_cas-userdebug
